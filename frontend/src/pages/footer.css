@@ -1,0 +1,32 @@
+/* footer.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto; /* Pushes footer to the bottom */
+  background-color: #333; /* Adjust based on your design */
+  color: #fff; /* Adjust text color */
+}
+
+.footer .container {
+  padding: 2rem;
+}
+
+.footer .nav-link {
+  color: #fff;
+}
+
+.footer .nav-link:hover {
+  color: #ddd;
+}
+
+.footer .text-muted {
+  color: rgba(255, 255, 255, 0.5);
+}

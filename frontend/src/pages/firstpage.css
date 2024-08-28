@@ -1,0 +1,36 @@
+
+.container {
+    padding: 20px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 200px; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bg-black {
+    background-color: black;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
